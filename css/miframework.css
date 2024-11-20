@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Montserrat Bold";
+    src: url("../fonts/Montserrat-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "SF UI Light";
+    src: url("../fonts/sf-ui-display-light.otf") format("opentype");
+}
+
+.am-ds-flex {
+    display: flex;
+}
+
+.am-bg-1 {
+    background-color: #176FA6;
+}
+
+.am-ds-flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.am-ds-flex-justify-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.am-w-1 {
+    width: 50%;
+}
+
+.am-w-2 {
+    width: 40px;
+}
+
+.am-w-3 {
+    width: 180px;
+}
+
+.am-h-1 {
+    height: 40px;
+}
+
+.am-h-2 {
+    height: 60px;
+}
+
+.am-p {
+    padding: 10px;
+}
+
+.am-p-t-20 {
+    padding-top: 20px;
+}
+
+.am-p-t-10 {
+    padding-top: 10px;
+}
+
+.am-p-l-10 {
+    padding-left: 10px;
+}
+
+.am-p-r-10 {
+    padding-right: 10px;
+}
+
+.am-p-b-10 {
+    padding-bottom: 10px;
+}
+
+.am-li-none {
+    list-style: none;
+}
+
+.am-ds-inline-block {
+    display: inline-block;
+}
+
+.am-t-transform-up {
+    text-transform: uppercase;
+}
+
+.am-fz-14 {
+    font-size: 14px;
+}
+
+.am-fz-18 {
+    font-size: 18px;
+}
+
+.am-fz-70 {
+    font-size: 70px;
+}
+
+.am-ff-montserrat {
+    font-family: Montserrat Bold;
+}
+
+.am-ff-sf {
+    font-family: SF UI Light;
+}
+
+.am-fs-italic {
+    font-style: italic;
+}
+
+.am-t-primario {
+    color: #176FA6;
+}
+
+.am-t-secundario {
+    color: #ffffff;
+}
+
+.am-t-cuarto {
+    color: #707070;
+}
+
+.am-bd-1 {
+    border: 1px solid #ffffff;
+}
+
+.am-bd-2 {
+    border: 1px solid #176FA6;
+}
+
+.am-bd-3 {
+    border: 1px solid #707070;
+}
+
+.am-bg-2 {
+    background: #ffffff;
+}
+
+.am-br-1 {
+    border-radius: 50%;
+}
+
+.am-br-2 {
+    border-radius: 15px;
+}
+
+.am-br-3 {
+    border-radius: 0 0 15px 15px;
+}
+
+.am-t-center {
+    text-align: center;
+}
+
+.am-t-right {
+    text-align: right;
+}
+
+.am-i-center {
+    align-items: center;
+}
+
+.am-gp-1 {
+    gap: 10px;
+}
+
+.am-bx-sz-1 {
+    box-sizing: content-box;
+}
+
+.am-t-tercero:hover {
+    color: #fffb02;
+}
+.am-cursor {
+    cursor: pointer;
+}
+
+.am-ds-flex-justify-center {
+    display: flex;
+    justify-content: center;
+}
